@@ -1,0 +1,77 @@
+# Ignore unwanted files and directories
+
+# System files
+.DS_Store
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.class
+
+# Ruby
+*.gem
+*.rbc
+/vendor/bundle/
+
+# Compiled binaries
+/bin/
+/obj/
+/out/
+
+# Compiled libraries
+/lib/
+/libs/
+
+# Compiled executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Log files
+*.log
+log/
+
+# Package files
+*.tar.gz
+*.zip
+*.war
+
+# Build and output directories
+/dist/
+/build/
+/out/
+
+# Generated files
+*.generated.*
+
+# Environment configuration files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Backup files
+*~
+*.bak
+
+# Ignore files specific to your development environment
+# For example, credentials, sensitive data, etc.
+# secrets.yml
+# config.yml
+/venv/
+db.sqlite3
