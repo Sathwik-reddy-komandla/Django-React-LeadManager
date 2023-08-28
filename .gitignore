@@ -76,4 +76,4 @@ log/
 /venv/
 db.sqlite3
 text.md 
-static/frontend/main.js
+/static/frontend/main.js
