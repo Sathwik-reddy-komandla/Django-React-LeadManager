@@ -21,6 +21,11 @@ static proptypes={
     const lead={name,email,message};
     this.props.addLead(lead)
     console.log("Submit")
+    this.setState({
+    name:'',
+    email:'',
+    message:''
+    })
   }
   render() {
     const {name,email,message}=this.state  
