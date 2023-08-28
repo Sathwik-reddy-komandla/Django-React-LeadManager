@@ -28,3 +28,6 @@ npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react babel-pl
 
 ::installing react and react dom
 npm i react react-dom prop-types
+
+::install redux packages
+redux react-redux redux-thunk redux-devtools-extension
