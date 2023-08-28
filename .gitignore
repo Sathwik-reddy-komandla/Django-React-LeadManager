@@ -75,3 +75,4 @@ log/
 # config.yml
 /venv/
 db.sqlite3
+text.md 
